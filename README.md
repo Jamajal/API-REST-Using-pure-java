@@ -7,22 +7,17 @@ The main goal was to understand how HTTP communication and request handling work
 The server is implemented using:
 
 - ServerSocket to create and manage the HTTP server
-
 - BufferedReader to read incoming request data
-
 - PrintWriter to write HTTP responses back to the client
 
 The application manually parses HTTP requests, interprets the operation and payload, and routes them accordingly.
 
 ⚙️ Features
 
-Basic HTTP request parsing
-
-Simple User CRUD operations
-
-Manual routing and response handling
-
-No external dependencies
+- Basic HTTP request parsing
+- Simple User CRUD operations
+- Manual routing and response handling
+- No external dependencies
 
 🎯 Purpose
 

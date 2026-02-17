@@ -1,6 +1,32 @@
-The intent of this small simple project is to create a API REST using Java from scratch. There are no other tools or libraery involved.
-It was a good experience to understande how things are done under the hood, not that I manage to implement things in a professional way such as Spring Boot Devs, but it work at least.
+📌 Project Overview
 
-Basically what's happening is the program reads request data interpreting and processing the operation and the data sent. The Java resources I used are Server Socket to instantiate server, BufferedReader to read request data and PrintWriter to write the response.
+This project is a minimal REST API built entirely from scratch using pure Java, without relying on external frameworks or libraries, to complement my network studies.
 
-The API is a simple User CRUD. I didn't spend a lot of time validating data and making it a clean API. The goal here was just to make it work without any tools.
+The main goal was to understand how HTTP communication and request handling work at a lower level — essentially exploring what happens under the hood of modern frameworks like Spring Boot.
+
+The server is implemented using:
+
+ServerSocket to create and manage the HTTP server
+
+BufferedReader to read incoming request data
+
+PrintWriter to write HTTP responses back to the client
+
+The application manually parses HTTP requests, interprets the operation and payload, and routes them accordingly.
+
+⚙️ Features
+
+Basic HTTP request parsing
+
+Simple User CRUD operations
+
+Manual routing and response handling
+
+No external dependencies
+
+🎯 Purpose
+
+This project was created strictly for learning purposes.
+The focus was not on production-level architecture, validation, or clean API design, but rather on understanding the core mechanics of how a REST API operates without abstraction layers.
+
+Although it does not aim to replace professional frameworks, it provides valuable insight into how higher-level tools are structured internally.

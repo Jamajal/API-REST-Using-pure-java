@@ -25,3 +25,8 @@ This project was created strictly for learning purposes.
 The focus was not on production-level architecture, validation, or clean API design, but rather on understanding the core mechanics of how a REST API operates without abstraction layers.
 
 Although it does not aim to replace professional frameworks, it provides valuable insight into how higher-level tools are structured internally.
+
+🙌 Credits
+
+This project was inspired by foundational techniques demonstrated in this tutorial video on building a simple HTTP REST API in Java:
+https://www.youtube.com/watch?v=7WXMSA6frT4
